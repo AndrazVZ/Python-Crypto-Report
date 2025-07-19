@@ -89,11 +89,6 @@ FILE_OUTPUT_STRING = f"{date_and_time.strftime('%d.%m.%Y')};{output_coin_pl}"
 with open(FULL_PATH_TO_PROJECT+"/crypto-report.txt","a") as f:
     f.write(FILE_OUTPUT_STRING + "\n")
 
-#Call my email sending function 
-smtp.send_email()
-
-
-
 
 '''
     TODO: 
